@@ -27,7 +27,7 @@
         <f:view>
             <h:form id="mainForm">
               <h:panelGrid columns="2">
-                <h:outputLabel for="name" value="Please enter your name" />
+                <h:outputLabel for="name" value="Please enter your Org Name" />
                 <h:inputText id="name" value="" required="true"/>
                 <h:commandButton value="Press me" action="#{helloWorld.send}"/>
                 <h:messages showDetail="true" showSummary="false"/>
