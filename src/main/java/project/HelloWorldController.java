@@ -46,7 +46,7 @@ public class HelloWorldController {
      * Method that is backed to a submit button of a form.
      */
     public String send(){
-        //do real logic, return a string which will be used for the navigation system of JSF
+        //do real logic, return a string which will be used for the navigation system of
         return "success";
     }
 }
