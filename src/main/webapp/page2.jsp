@@ -26,7 +26,7 @@
     <body>
         <f:view>
             <h:form id="mainForm">
-                <a href="https://www.youtube.com/@saadhyaramgani">saadhyaramgani</a>
+                <h:outputLabel for="name" value="Hi Ashok, How are you" />
                 <h:commandLink action="back">
                     <h:outputText value="Home"/>
                 </h:commandLink>
