@@ -27,7 +27,7 @@
         <f:view>
             <h:form id="mainForm">
               <h:panelGrid columns="2">
-                <h:outputLabel for="name" value="Please Click here to See Saadhya Ramgani :" + https://www.youtube.com/@saadhyaramgani + "?" />
+                <h1:outputLabel for="name" value="Please Click here to See Saadhya Ramgani :" />
                 <h:inputText id="name" value="" required="true"/>
                 <h:commandButton value="Submit" action="#{helloWorld.send}"/>
                 <h:messages showDetail="true" showSummary="false"/>
