@@ -30,8 +30,9 @@
                 <h2><h:outputText value="Hello #{helloWorld.name}. We hope you enjoy Apache MyFaces"/></h2>
                 --%>
                 <h2><h:outputText value="Hi ASHOK"/></h2>
-                <h:commandLink action="back">
+                
                     <%--
+                    <h:commandLink action="back">
                     <h:outputText value="Home"/>
                     --%>
                     <h:outputText value="https://www.youtube.com/@saadhyaramgani"/>
