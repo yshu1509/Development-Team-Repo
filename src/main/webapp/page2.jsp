@@ -26,7 +26,7 @@
     <body>
         <f:view>
             <h:form id="mainForm">
-                <h2><h:outputText value="<a href="https://www.youtube.com/@saadhyaramgani">saadhyaramgani</a>"/></h2>
+                <a href="https://www.youtube.com/@saadhyaramgani">saadhyaramgani</a>
                 <h:commandLink action="back">
                     <h:outputText value="Home"/>
                 </h:commandLink>
