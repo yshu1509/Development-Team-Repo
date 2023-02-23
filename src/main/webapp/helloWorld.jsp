@@ -27,7 +27,7 @@
         <f:view>
             <h:form id="mainForm">
               <h:panelGrid columns="2">
-                <h:outputLabel for="name" value="Please Click here to See Saadhya Ramgani :" />
+                <h:outputLabel for="name" value="Please Click here to See u r Text:" />
                 <h:inputText id="name" value="" required="true"/>
                 <h:commandButton value="Submit" action="#{helloWorld.send}"/>
                 <h:messages showDetail="true" showSummary="false"/>
